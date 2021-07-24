@@ -10,7 +10,9 @@
 ---
 
 ## Description
-This is the creation of a landing page of a site known as Akan Name Generator whereby a user is guided through inputs such as there age and gender, after this and submitting, it's algorithm calculates and determines  the user's Akan name.
+This is the re-creation of a web application-landing page of a site known as Delani Studio whereby a user is guided through details about the services it offers.
+
+Has information about the studio, a portfolio section and a form that the user can use to reach-out to Delani Studios.
 
 ---
 
