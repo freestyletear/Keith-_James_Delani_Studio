@@ -54,6 +54,9 @@ html {
     flex-direction: row;
     margin-top: 30px;
  }
+#flex-1 #flex-2 {
+   cursor: pointer;
+ }
  div.items div ul#flex-2 {
    display: flex;
    align-items: center;
@@ -65,6 +68,32 @@ html {
  div.items div#flex-1 {
    margin: 0 150px 0 150px;
  }
+.showing,
+.showing-2,
+.showing-3 {
+  display: none;
+} 
+
+.showing p,
+.showing-2 p,
+.showing-3 p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 411px;
+  padding: 20px;
+  /* margin: 0 0px 0 50px; */
+}
+.showing h5,
+.showing-2 h5,
+.showing-3 h5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* margin: 0 0px 0 50px; */
+}
  /* End of Section Four */
 
  /* Beginning of Section Five  */
@@ -157,7 +186,7 @@ div.footer {
   align-items: center;
   flex-direction: column;
 }
-Begi
+
 
 /* 
 @media only screen and (max-width: 1400px) {
