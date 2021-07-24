@@ -1,6 +1,6 @@
 <h1 align=center >DELANI STUDIO</h1>
 
-<p align=center >This is my first portfolio website, 20th June 2021</p>
+<p align=center >This is an example of a walkthrough/ company portfolio , 24 July 2021</p>
 
 ==========================================================================================================
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=freestyletear" alt="freestyletear github profile trophy's" /></a> </p>
@@ -36,7 +36,7 @@ Has information about the studio, a portfolio section and a form that the user c
 
 ---
 ### Development
-Want to contribute? Great!
+>Want to contribute? Great!
 
 To fix a bug or enhance an existing module, follow these steps:
 
@@ -82,8 +82,6 @@ If you find a bug (the website couldn't handle the query and / or gave undesired
 [Tik-tok](https://www.tiktok.com/@keithjames_themerchant?lang=en) |
 
 ---
-
----
 ### License
 >You can check out the full license- [here][link-1]
 
@@ -91,3 +89,5 @@ This project is licensed under the terms of the **MIT** license.
 
 
 [link-1]: https://github.com/freestyletear/Keith_James_Akan_Name_Generator/blob/master/LICENCE
+
+---
