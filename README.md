@@ -1,6 +1,6 @@
 <h1 align=center >DELANI STUDIO</h1>
 
-<p align=center >This is my first portfolio website, 20th June 2021</p>
+<p align=center >This is an example of a walkthrough/ company portfolio , 24 July 2021</p>
 
 ==========================================================================================================
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=freestyletear" alt="freestyletear github profile trophy's" /></a> </p>
@@ -10,7 +10,9 @@
 ---
 
 ## Description
-This is the creation of a landing page of a site known as Akan Name Generator whereby a user is guided through inputs such as there age and gender, after this and submitting, it's algorithm calculates and determines  the user's Akan name.
+This is the re-creation of a web application-landing page of a site known as Delani Studio whereby a user is guided through details about the services it offers.
+
+Has information about the studio, a portfolio section and a form that the user can use to reach-out to Delani Studios.
 
 ---
 
@@ -34,7 +36,7 @@ This is the creation of a landing page of a site known as Akan Name Generator wh
 
 ---
 ### Development
-Want to contribute? Great!
+>Want to contribute? Great!
 
 To fix a bug or enhance an existing module, follow these steps:
 
@@ -63,7 +65,7 @@ If you find a bug (the website couldn't handle the query and / or gave undesired
 
 ## Sources
 
-- 👨‍💻<p align="left"> <img width="1200" height="700" src="" alt="Image showcasing Keith James' Delani studio site landing page" /> </p>
+- 👨‍💻<p align="left"> <img width="800" height="500" src="https://raw.githubusercontent.com/freestyletear/Keith-_James_Delani_Studio/master/assets/images/link/Screenshot%20from%202021-07-24%2023-50-49.png" alt="Image showcasing Keith James' Delani studio site landing page" /> </p>
 
 
 ---
@@ -80,8 +82,6 @@ If you find a bug (the website couldn't handle the query and / or gave undesired
 [Tik-tok](https://www.tiktok.com/@keithjames_themerchant?lang=en) |
 
 ---
-
----
 ### License
 >You can check out the full license- [here][link-1]
 
@@ -89,3 +89,5 @@ This project is licensed under the terms of the **MIT** license.
 
 
 [link-1]: https://github.com/freestyletear/Keith_James_Akan_Name_Generator/blob/master/LICENCE
+
+---
