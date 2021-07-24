@@ -15,13 +15,13 @@
       rel="stylesheet"
        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
         crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
          integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
           crossorigin="anonymous">
-        </script>
+        </script> -->
      <link
       rel="stylesheet"
-      href="styles/style.css" 
+      href="css/styles.css" 
       type="text/css"
        />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -29,7 +29,13 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
-    <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/0e3fd5f113753ade8630d4a64/134eb209c367081008dcb8f47.js");</script>
+    <!-- <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/0e3fd5f113753ade8630d4a64/134eb209c367081008dcb8f47.js");</script> -->
+    <script
+        src="js/jquery-3.6.0.js">
+    </script>
+    <script
+        src="js/scripts.js">
+    </script>
 </head>
 <body>
 
@@ -80,23 +86,57 @@
     <div class="what-we-do">
             <h2>WHAT WE DO</h2>
             <div class="items">
-                <div id="flex-1">
-                    <ul id="flex-2">
+                <div id="flex-1" class="hidden">
+                    <ul id="flex-2" class="clickable" >
                         <li><img src="assets/images/link/services_icons/design_icon.png" alt=""></IMG></li>
                         <li><h6>DESIGN</h6></li>
                     </ul>
                 </div>
-                <div id="flex-1">
-                    <ul id="flex-2">
+                <div class="showing">
+                    <h5 class="clickable">DESIGN</h5>
+                    <p class="clickable">
+                        Our design practice offers a full range of services 
+                        including brand strategy, interaction and visual design 
+                        and user experience testing. <br> <br>
+                        Through out your project, our designers create and 
+                        implement visual design and workflows, solicit user 
+                        feedback and work with you to make sure what gets built
+                        is what is needed.
+                    </p>
+                </div>
+                <div id="flex-1" class="hidden-2">
+                    <ul id="flex-2" class="clickable-2">
                         <li><img src="assets/images/link/services_icons/dev_icon.png" alt=""></li>
                         <li><h6>DEVELOPMENT</h6></li>
                     </ul>
                 </div>
-                <div id="flex-1">
-                    <ul id="flex-2">
+                <div class="showing-2">
+                    <h5 class="clickable-2">DEVELOPMENT</h5>
+                    <p class="clickable-2">
+                        All engineers are fluent in the latest enterprise, mobile and
+                        web development technologies. <br />
+                        <br />
+                        They collaborate with your team to write, and improve code on a
+                        daily basis, using proven practices such as test driven
+                        development and pair programming.
+                    </p>
+                </div>
+                <div id="flex-1" class="hidden-3">
+                    <ul id="flex-2" class="clickable-3">
                         <li><img src="assets/images/link/services_icons/product_icon.png" alt=""></li>
                         <li><h6>PRODUCT MANAGEMENT</h6></li>
                     </ul>
+                </div>
+                <div class="showing-3">
+                    <h5 class="clickable-3">PRODUCT MANAGEMENT</h5>
+                    <p class="clickable-3">
+                        Planning and development is iterative. Becaus we are constantly
+                        coding and testing, the products we buid are always ready to go
+                        live. <br />
+                        <br />
+                        This iterative process allows for changes as business
+                        requirements evolve.
+                    </p>
                 </div>
             </div>
     </div>
@@ -175,10 +215,10 @@
     <!-- Beginning of footer  -->
     <div class="footer">
         <h6>DELANI STUDIO</h6>
-        <P>2019</P>
+        <P>2021</P>
     </div>
-
     <!-- End of Footer -->
+
 </body>
 </html>
 
