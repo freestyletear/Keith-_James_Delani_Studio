@@ -131,7 +131,7 @@ div#list ul.list-2 li div p {
   font-size: 25px;
   display: flex;
   justify-content: center;
-  text-align: center;
+  /* text-align: center; */
   /* align-items: flex-end; */
   }
  div.portfolio div#list ul#two.list-2 li img {
@@ -204,7 +204,54 @@ div.footer {
   flex-direction: column;
 }
 
+/* Beginning of media queries */
+@media only screen and (max-width: 1400px) {
+  body,
+  div.card-body {
+    background-color: #F37D1E;
+  }
+  div.items div#flex-1 ul li h6 {
+    font-size: 15px;
+  }
+  div#list ul li div p {
+    margin: 20px;
+  }
+  div.col-md-6 input {
+    /* justify-content: space-evenly; */
+  }
+  form div input#inputEmail4 {
+    margin-left: 73px;
+  }
+}
 
+@media only screen and (max-width: 1200px) {
+  body,
+  div.card-body {
+    background-color: red;
+    width: 1200px;
+  }
+  div.items div#flex-1 ul li h6 {
+    display: flex;
+    justify-content: center;
+   align-items: center;
+  }
+div#list ul.list-2 li img {
+   margin: 0px 70px 0px 0px;
+ }
+  /* div.items div#flex-1 ul li h6 {
+    font-size: 15px;
+
+  } */
+  /* div#list ul li div p {
+    margin: 20px;
+  } */
+  /* div.col-md-6 input {
+    /* justify-content: space-evenly; */
+  } */
+  /* form div input#inputEmail4 {
+    margin-left: 73px;
+  } */
+}
 /* 
 @media only screen and (max-width: 1400px) {
 
