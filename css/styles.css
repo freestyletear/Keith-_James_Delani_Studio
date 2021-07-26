@@ -147,6 +147,81 @@ div#list ul#two li div div#border p#self {
 
  /* Beginning of Section Six Contact form */
 
+ .contact-us h2 {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.row > * {
+  padding-left: 0;
+}
+
+.row {
+  margin-bottom: 20px;
+}
+
+.contact-us {
+  background: url('../assets/images/link/backgrounds/c_image.jpg') no-repeat;
+  background-size: 100% 100%;
+  color: white;
+}
+
+.contact-us-content {
+  width: 70vw;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+.form-control {
+  background-color: transparent;
+  border-radius: 0;
+}
+
+.form-control:valid {
+  background-color: transparent;
+  color: white;
+}
+
+.form-control::placeholder {
+  color: white;
+}
+
+textarea {
+  height: 300px;
+}
+
+
+/* .contact-us {
+  background-image: url('../assets/images/link/backgrounds/c_image.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  /* height: 95vh; */
+/*}
+
+.form-control,
+.form-control:focus,
+.form-control:active {
+  background: transparent;
+  border: 1px solid rgb(255, 255, 255);
+  color: white !important;
+}
+
+.form-control::placeholder {
+  color: white;
+}
+#name-error,
+#email-error,
+#message-error {
+  font-size: 13px;
+}
+
+.btn {
+  color: white;
+  border: 1px solid white;
+} */
+
  /* End of Section Six contact form */
  /* Beginning of Section Six  */
   /* img#three.card-img {
