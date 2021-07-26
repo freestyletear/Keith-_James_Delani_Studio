@@ -129,3 +129,40 @@ $(document).ready(function () {
      }
    );
 });
+
+
+// $(document).ready(function () {
+//   $("#button").click(function () {
+//     $(".bg-modal").show();
+//   });
+// });
+
+// $(document).ready(function () {
+//   $(".close").click(function () {
+//     $(".bg-modal").show().style.display = "flex";
+//   });
+// });
+
+
+// $(document).ready(function () {
+//   $("#button").click(function (event) {
+//     event.preventDefault();
+//     $(".bg-modal").show();
+
+
+document.getElementById('button').addEventListener('click',
+function(){
+  document.querySelector('.bg-modal').style.display = 'flex';
+});
+
+document.querySelector('.close').addEventListener('click', 
+function() {
+  document.querySelector('.bg-modal').style.display = 'none';
+});
+
+// var myModal = document.getElementById(".bg-modal");
+// var myInput = document.getElementById("button");
+
+// myModal.addEventListener("shown.bs.modal", function () {
+//   myInput.focus();
+// });
