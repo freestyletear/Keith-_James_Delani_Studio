@@ -131,16 +131,17 @@ $(document).ready(function () {
 });
 
 let collectInput = () => {
-    if ($(`#userName`).val() == ``) {
-        alert(`Please fill in your name`);
-    } else if ($(`#userMail`).val() == ``) {
-        alert(`Please provide your E-mail`)
-    }
-     else if ($(`#userMessage`).val() == ``) {
-        alert(`We'd love to hear your feedback. Please fill it in`)
-    }
-     else {
-    userName = $(`#userName`).val();
-    alert(userName + ` we have recieved your message. Thank you for reaching out to us`)
-    }
-}
+  if ($(`#name`).val() == ``) {
+    alert(`Please fill in your name`);
+  } else if ($(`#email`).val() == ``) {
+    alert(`Please provide your E-mail`);
+  } else if ($(`#message`).val() == ``) {
+    alert(`We would love to hear your feedback. Please fill it in`);
+  } else {
+    name = $(`#name`).val();
+    alert(
+      name +
+        ` we have recieved your message. Thank you for reaching out to us`
+    );
+  }
+};

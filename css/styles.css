@@ -147,25 +147,16 @@ div#list ul#two li div div#border p#self {
 
  /* Beginning of Section Six Contact form */
 
- .contact-us h2 {
+ .contact-us h3 {
   font-weight: 600;
   text-transform: uppercase;
+  margin-left: 450px;
 }
-
-.row > * {
-  padding-left: 0;
-}
-
-.row {
-  margin-bottom: 20px;
-}
-
 .contact-us {
   background: url('../assets/images/link/backgrounds/c_image.jpg') no-repeat;
   background-size: 100% 100%;
   color: white;
 }
-
 .contact-us-content {
   width: 70vw;
   margin: 0 auto;
@@ -188,6 +179,14 @@ div#list ul#two li div div#border p#self {
 
 textarea {
   height: 300px;
+}
+button.btn {
+  width: 100%;
+  margin-top: 2%;
+  border: 2px solid #ffffff;
+}
+ input.form-control {
+  margin-bottom: 3%;
 }
  /* End of Section Six */
 
