@@ -130,39 +130,18 @@ $(document).ready(function () {
    );
 });
 
-
-// $(document).ready(function () {
-//   $("#button").click(function () {
-//     $(".bg-modal").show();
-//   });
-// });
-
-// $(document).ready(function () {
-//   $(".close").click(function () {
-//     $(".bg-modal").show().style.display = "flex";
-//   });
-// });
-
-
-// $(document).ready(function () {
-//   $("#button").click(function (event) {
-//     event.preventDefault();
-//     $(".bg-modal").show();
-
-
-document.getElementById('button').addEventListener('click',
-function(){
-  document.querySelector('.bg-modal').style.display = 'flex';
-});
-
-document.querySelector('.close').addEventListener('click', 
-function() {
-  document.querySelector('.bg-modal').style.display = 'none';
-});
-
-// var myModal = document.getElementById(".bg-modal");
-// var myInput = document.getElementById("button");
-
-// myModal.addEventListener("shown.bs.modal", function () {
-//   myInput.focus();
-// });
+let collectInput = () => {
+  if ($(`#name`).val() == ``) {
+    alert(`Please fill in your name`);
+  } else if ($(`#email`).val() == ``) {
+    alert(`Please provide your E-mail`);
+  } else if ($(`#message`).val() == ``) {
+    alert(`We would love to hear your feedback. Please fill it in`);
+  } else {
+    name = $(`#name`).val();
+    alert(
+      name +
+        ` we have recieved your message. Thank you for reaching out to us`
+    );
+  }
+};

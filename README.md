@@ -1,6 +1,6 @@
 <h1 align=center >DELANI STUDIO</h1>
 
-<p align=center >This is an example of a walkthrough/ company portfolio , 24 July 2021</p>
+<p align=center >Delani Studio is a website to showcase Delani's services and a way for clients to give feedback through the contact form, 24 July 2021</p>
 
 ==========================================================================================================
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=freestyletear" alt="freestyletear github profile trophy's" /></a> </p>
@@ -10,20 +10,14 @@
 ---
 
 ## Description
+
 This is the re-creation of a web application-landing page of a site known as Delani Studio whereby a user is guided through details about the services it offers.
 
 Has information about the studio, a portfolio section and a form that the user can use to reach-out to Delani Studios.
 
+Delani Studio specializes in tailor made design and software to suit users needs. Our approach unifies design, development and product management to create exceptional products.
+
 ---
-
-<!-- ## Behaviour Driven Development (BDD)
-| Behaviour                                         |                   Input                        | Expected Results                        |
-|---------------------------------------------------|------------------------------------------------|-----------------------------------------|
-|                                                   | Birth Date | Birth  Month | Birth Year| Gender |                                         |
-| A male user born on 01/01/2022                    | 01         | 01           | 2022      | Male   |                                         |
-| A female user born on 01/01/1990                 | 01         | 01           | 1990      | Female |                                         |
-
---- -->
 
 ## Languages and Tools
 <p align="left"> <a href="https://www.w3schools.com/css/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://getbootstrap.com/" target="_blank"> <img src="https://miro.medium.com/max/2000/1*9HanDsRU11ZMsgDGJwN96w.png" alt="bootstrap" width="40" height="40"/> </a> <a href="https://jquery.com/" target="_blank"> <img src="https://cms-assets.tutsplus.com/uploads/users/30/posts/35633/preview_image/jquery-js.png" alt="jquery" width="40" height="40"/> </a> </p> 
@@ -88,6 +82,6 @@ If you find a bug (the website couldn't handle the query and / or gave undesired
 This project is licensed under the terms of the **MIT** license.
 
 
-[link-1]: https://github.com/freestyletear/Keith_James_Akan_Name_Generator/blob/master/LICENCE
+[link-1]: https://raw.githubusercontent.com/freestyletear/Keith-_James_Delani_Studio/master/LICENSE
 
 ---
